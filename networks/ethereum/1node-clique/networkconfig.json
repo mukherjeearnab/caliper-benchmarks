@@ -1,9 +1,7 @@
 {
     "caliper": {
         "blockchain": "ethereum",
-        "command" : {
-            "start": "docker-compose -f ./networks/ethereum/1node-clique/docker-compose.yml up -d && sleep 60s",
-            "end" : "docker-compose -f ./networks/ethereum/1node-clique/docker-compose.yml down"
+	"command" : {
           }
     },
     "ethereum": {
@@ -16,11 +14,7 @@
         "contracts": {
             "simple": {
                 "path": "./src/ethereum/simple/simple.json",
-                "estimateGas": true,
-                "gas": {
-                    "query": 100000,
-                    "transfer": 70000
-                }
+                "estimateGas": true
             }
         }
     }

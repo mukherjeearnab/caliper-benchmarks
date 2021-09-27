@@ -1,0 +1,1 @@
+docker-compose -f ./networks/ethereum/1node-clique/docker-compose.yml up -d

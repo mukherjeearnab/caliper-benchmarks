@@ -1,0 +1,19 @@
+{
+    "caliper": {
+        "blockchain": "ethereum"
+    },
+    "ethereum": {
+        "url": "wss://rinkeby.infura.io/ws/v3/1ec6fd9491f8465cbc293b9d7367bf5f",
+        "contractDeployerAddress": "0x953D230dc940CCdB53268a6c03d44EfE826e7B34",
+        "contractDeployerAddressPrivateKey": "0xfe745d31f925c8f12a7c8e406466a5a935a33315e6dedfe718fdd505d6e7287b",
+        "fromAddressPrivateKey": "0xfe745d31f925c8f12a7c8e406466a5a935a33315e6dedfe718fdd505d6e7287b",
+        "fromAddress": "0x953D230dc940CCdB53268a6c03d44EfE826e7B34",
+        "transactionConfirmationBlocks": 20,
+        "contracts": {
+            "simple": {
+                "path": "./src/ethereum/simple/simple.json",
+                "estimateGas": true
+            }
+        }
+    }
+}
